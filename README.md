@@ -45,20 +45,26 @@ Use this section to recap over some of your major learnings while working throug
 To see how you can add code snippets, see below:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<img src="./images/image-qr-code.png" alt="QR code" width="576" height="576">
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.main-container {
+    border-radius: 15px;
+    padding: 1rem;
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    width: 80%;
 }
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+
+.qr-container img {
+    width: 100%;
+    display: inline-block;
+    height: auto;
+    border-radius: 10px;
 }
+
+@media screen and (min-width: 768px) {}
 ```
-
-
 
 ### Useful resources
 
